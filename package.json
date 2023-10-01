@@ -1,0 +1,23 @@
+{
+  "name": "watch-calendar-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fastify": "^4.23.2",
+    "googleapis": "^126.0.1",
+    "localtunnel": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  }
+}
